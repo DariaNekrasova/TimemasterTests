@@ -1,0 +1,7 @@
+mock
+    //@Rule
+    //public WireMockRule wireMockRule = new WireMockRule(8090);
+    //.stream().filter(()->());
+    //.stream().map(()->());
+
+RestAssured.useRelaxedHTTPSValidation(); // проходим мимо левых серт-ов
